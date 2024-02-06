@@ -1,4 +1,3 @@
-
 from rango.models import Category, Page
 import django
 import os
@@ -9,6 +8,7 @@ django.setup()
 
 
 def populate():
+
     python_pages = [{'title': 'Official Python Tutorial',
                      'url': 'http://docs.python.org/3/tutorial/', 'views': 114, },
                     {'title': 'How to Think like a Computer Scientist',
