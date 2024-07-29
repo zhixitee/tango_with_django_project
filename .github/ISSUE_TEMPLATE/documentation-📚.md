@@ -7,27 +7,28 @@ assignees: ''
 
 ---
 
-# Issue Report
+## Issue Report
 
 ## Documentation URL
 [https://docs.titanml.co/docs/intro/](https://docs.titanml.co/docs/intro/)
 
 ## Category
 <!-- Please select the appropriate category based on the documentation directory -->
-- [ ] Getting Started
-- [ ] Installation
-- [ ] API Reference
-- [ ] Tutorials
-- [ ] Examples
-- [ ] Troubleshooting
-- [ ] Other (Please specify)
+- [ ] Quickstart
+- [ ] Running a Takeoff Server
+- [ ] Interfacing with Takeoff
+- [ ] Serving mulitple models/readers
+- [ ] Deployments and Integrations
+- [ ] Conceptual guides
+- [ ] FAQ
+- [ ] API References 
+- [ ] Others (Please specify)
 
 ## Description
 <!-- Provide a clear and concise description of the issue -->
 
 ## Steps to Reproduce
 <!-- Steps to reproduce the behavior, if applicable -->
-
 1. Go to [https://docs.titanml.co/docs/intro/](https://docs.titanml.co/docs/intro/)
 2. [Describe the steps leading to the issue]
 
@@ -42,7 +43,3 @@ assignees: ''
 
 ## Additional Context
 <!-- Add any other context or screenshots about the issue here -->
-
----
-
-If this issue is related to the general [TitanML website](https://www.titanml.co/), please contact support at [hello@titanml.co](mailto:hello@titanml.co) instead.

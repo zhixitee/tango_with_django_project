@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-# Reporting Security Issues
+## Reporting Security Issues
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+**Please do not report security vulnerabilities through public GitHub issues.**  
 
 Please direct these vulnerabilities to [hello@titanml.co](mailto:hello@titanml.co).
 

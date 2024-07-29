@@ -7,32 +7,32 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Bug Report
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Describe the bug**  
+A clear and concise description of what the bug is. For example, TitanML's inference stack "Takeoff" fails to load models over 1GB in size.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Steps To Reproduce**  
+Please walk us through the steps to reproduce the bug and provide the following details:
+1. Go to 'Model Upload'
+2. Click on 'Upload Model'
+3. Select a model file larger than 1GB
+4. See error "Model size exceeds limit"
 
-**Screenshots**
+- **Packages and versions you're running:**
+  - List of packages and their versions (e.g., Takeoff v0.16.0, TensorFlow v2.8.0)
+- **Environment details:**
+  - OS: (e.g., Ubuntu 20.04)
+  - Python version: (e.g., Python 3.8)
+  - Hardware specs: (e.g., 32GB RAM, NVIDIA GTX 1080)
+- **Any deviations from the standard TitanML packages or configurations:**
+  - (e.g., Custom model loader, Modified configuration settings)
+
+**Expected behaviour**  
+A clear and concise description of what you expected to happen. For example, the model should upload and load without errors.
+
+**Screenshots**  
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Additional context**  
+Add any other context about the problem here. For example, this issue only occurs with specific model architectures.
